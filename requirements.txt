@@ -1,1 +1,6 @@
 streamlit==1.26.0
+streamlit-shadcn-ui
+plotly
+streamlit-extras
+streamlit-flow-component
+pyflowchart
