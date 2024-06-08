@@ -1,7 +1,7 @@
 # pages/2_Free_Fibula_Flap.py
 import streamlit as st
 import pandas as pd
-from utils import create_bullet_chart, prepare_study_data, create_confusion_matrix
+from utils import create_bullet_chart, prepare_study_data, create_confusion_matrix,display_metric_card
 from local_components import card_container
 from streamlit_extras.colored_header import colored_header
 
@@ -66,6 +66,7 @@ metrics = list(metrics_importance_fibula_flap.keys())
 card_cols = st.columns(2)
 for I in range(len(metrics))[:2]:
     with card_cols[I]:
+        display_metric_card( card_cols, metrics, metrics_importance, values, improvements, i)
         index = I
         current_metric = metrics[index]
         current_m_dict = metrics_importance_fibula_flap[current_metric]

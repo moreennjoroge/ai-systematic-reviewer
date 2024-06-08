@@ -1,0 +1,11 @@
+Study,Metric,GPT-3.5 Average,GPT-4 Average,Improvement,Description
+Cell Assisted Lipotransfer,Recall,0.9881,0.9981,+1.01%,Essential for ensuring all relevant studies are identified.
+Cell Assisted Lipotransfer,Precision,0.9960,0.9984,+0.24%,Ensures the identified studies are truly relevant.
+Cell Assisted Lipotransfer,F1 Score,0.9913,0.9982,+0.69%,Balances recall and precision.
+Cell Assisted Lipotransfer,Specificity,0.9888,0.9981,+0.93%,Correctly identifies non-relevant studies.
+Cell Assisted Lipotransfer,Accuracy,0.9881,0.9981,+1.00%,Overall correctness of the model's predictions.
+Free Fibula Flap,Recall,0.8628,0.9741,+12.91%,Essential for ensuring all relevant studies are identified.
+Free Fibula Flap,Precision,0.9728,0.9871,+1.46%,Ensures the identified studies are truly relevant.
+Free Fibula Flap,F1 Score,0.9061,0.9785,+7.99%,Balances recall and precision.
+Free Fibula Flap,Specificity,0.8624,0.9744,+12.98%,Correctly identifies non-relevant studies.
+Free Fibula Flap,Accuracy,0.8628,0.9741,+12.91%,Overall correctness of the model's predictions.
